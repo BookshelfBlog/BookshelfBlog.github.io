@@ -1,7 +1,7 @@
-// 评论issues仓库 https://bookshelf.github.io/
-var repoIssuesUrl = "https://api.github.com/repos/gitalk/issues";
-var clientId = "69855166dec33d1bccca";
-var clientSecret = "0fa0a1f64dcd833d2f07901a2d1e5febd4a2bfaf";
+// 评论issues仓库 by.BookshelfBlog https://BookshelfBlog.github.io/
+var repoIssuesUrl = "https://api.github.com/repos/BookshelfBlog/blog_comment/issues";
+var clientId = "24e92618f34e42ef031c";
+var clientSecret = "041ebb058acbfbaa7cb1161baefa76912e54317f";
 var authorizationToken = 'Basic ' + btoa(clientId + ':' + clientSecret);
 // 写comment count值
 var reqCommentCountUrl = repoIssuesUrl + "?t=" + new Date().getTime() + "&labels=Gitalk,";
